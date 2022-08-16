@@ -1,0 +1,11 @@
+f = open("rosalind_iev.txt", "r")
+f = f.read()
+f = f.split(" ")
+a = int(f[0])
+b = int(f[1])
+c = int(f[2])
+d = int(f[3])
+e = int(f[4])
+
+expected = 2 * (a + b + c + d*0.75 + e*0.5)
+print(expected)
