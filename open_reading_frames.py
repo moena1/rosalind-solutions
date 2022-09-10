@@ -2,7 +2,7 @@ import math
 f = open("rosalind_prot.txt", "r")
 f = f.read()
 
-f = "GCCATG"
+reversedF = f[::-1]
 
 msg = ""
 
